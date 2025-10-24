@@ -1,5 +1,5 @@
 name: eco_locator
-description: "A new Flutter project."
+description: "O Eco Locator é um app Flutter que ajuda a encontrar pontos de reciclagem próximos usando o OpenStreetMap. Mostra marcadores com nome, tipo de material e distância calculada pela fórmula de Haversine. Possui filtro por tipo, tema claro/escuro e segue Clean Architecture com dados em JSON local."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -35,6 +35,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.4.7
+  flutter_svg: ^2.2.1
 
 flutter_native_splash:
   color: "#4CAF50"                # cor de fundo (usa tua cor primária da Marpef)
@@ -72,6 +73,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - lib/assets/
+    - lib/assets/icons/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

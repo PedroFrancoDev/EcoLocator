@@ -1,4 +1,4 @@
-import 'package:eco_locator/presentation/pages/Home/home_page.dart';
+import 'package:eco_locator/presentation/pages/eco_map_page/eco_map_page.dart';
 import 'package:flutter/material.dart';
 
 class App extends StatelessWidget {
@@ -11,7 +11,7 @@ class App extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.green),
       ),
-      home: HomePage(),
+      home: EcoMapPage(),
     );
   }
 }
