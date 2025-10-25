@@ -89,7 +89,7 @@ class MapWidget extends StatelessWidget {
         return FontAwesomeIcons.fileLines;
       case AcceptedMaterials.metal:
         return FontAwesomeIcons.meta;
-      case AcceptedMaterials.batteries:
+      case AcceptedMaterials.electronics:
         return FontAwesomeIcons.batteryThreeQuarters;
     }
   }
@@ -97,7 +97,7 @@ class MapWidget extends StatelessWidget {
   _getMaterialColor(List<String> acceptedMaterials) {
     if (acceptedMaterials.contains(AcceptedMaterials.plastic))
       return MaterialColors.plastic;
-    if (acceptedMaterials.contains(AcceptedMaterials.batteries))
+    if (acceptedMaterials.contains(AcceptedMaterials.electronics))
       return MaterialColors.batteries;
     if (acceptedMaterials.contains(AcceptedMaterials.glass))
       return MaterialColors.glass;

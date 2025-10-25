@@ -2,7 +2,6 @@ import "package:eco_locator/presentation/pages/eco_map_page/widgets/filter_botto
 import "package:eco_locator/presentation/pages/eco_map_page/widgets/map_widget.dart";
 import "package:eco_locator/presentation/providers/eco_locator_provider.dart";
 import "package:eco_locator/presentation/providers/theme_provider.dart";
-import "package:eco_locator/presentation/widgets/eco_point_info.dart";
 import "package:eco_locator/presentation/widgets/floating_app_bar.dart";
 import "package:flutter/material.dart";
 import "package:flutter_map/flutter_map.dart";
@@ -22,6 +21,17 @@ class _EcoMapPageState extends State<EcoMapPage> {
   static const LatLng _initialCenter = LatLng(-8.838333, 13.234444);
 
   @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      final provider = Provider.of<EcoLocatorProvider>(context, listen: false);
+      if (provider.currentLocation != null) {
+        _mapController.move(provider.currentLocation!, 13.0);
+      }
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     ThemeProvider themeProvider = context.watch<ThemeProvider>();
 
@@ -29,7 +39,12 @@ class _EcoMapPageState extends State<EcoMapPage> {
       body: Consumer<EcoLocatorProvider>(
         builder: (context, provider, child) {
           if (provider.isLoading) {
-            return Text("Carregando");
+            return Center(
+              child: CircularProgressIndicator(
+                strokeWidth: 1,
+                color: Color(0XFF2E7D32),
+              ),
+            );
           }
 
           if (provider.errorMessage != null) {
@@ -104,7 +119,7 @@ class _EcoMapPageState extends State<EcoMapPage> {
                       padding: EdgeInsets.all(11),
                       color: Color(0XFF2E7D32),
                       child: SvgPicture.asset(
-                        "lib/assets/icons/Property 1=linear.svg",
+                        "assets/icons/Property 1=linear.svg",
                         height: 25,
                         width: 25,
                         colorFilter: ColorFilter.mode(

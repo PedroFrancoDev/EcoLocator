@@ -1,0 +1,443 @@
+[
+  {
+    "name": "Ecoponto #1",
+    "latitude": -8.8301,
+    "longitude": 13.2201,
+    "materials": [
+      "Plástico",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Coleta #2",
+    "latitude": -8.8325,
+    "longitude": 13.2253,
+    "materials": [
+      "Papel",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto Verde #3",
+    "latitude": -8.835,
+    "longitude": 13.228,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Estação Sul #4",
+    "latitude": -8.838,
+    "longitude": 13.232,
+    "materials": [
+      "Vidro",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Recicla Centro #5",
+    "latitude": -8.840,
+    "longitude": 13.235,
+    "materials": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Coleta Rápida #6",
+    "latitude": -8.842,
+    "longitude": 13.238,
+    "materials": [
+      "Papel"
+    ]
+  },
+  {
+    "name": "Ecoponto Norte #7",
+    "latitude": -8.844,
+    "longitude": 13.240,
+    "materials": [
+      "Plástico",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto de Triagem #8",
+    "latitude": -8.846,
+    "longitude": 13.243,
+    "materials": [
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Central de Resíduos #9",
+    "latitude": -8.848,
+    "longitude": 13.246,
+    "materials": [
+      "Papel",
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Coleta Urbana #10",
+    "latitude": -8.850,
+    "longitude": 13.250,
+    "materials": [
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Ponto Sustentável #11",
+    "latitude": -8.852,
+    "longitude": 13.253,
+    "materials": [
+      "Vidro",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ecoponto Leste #12",
+    "latitude": -8.854,
+    "longitude": 13.256,
+    "materials": [
+      "Papel",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Recicla Sul #13",
+    "latitude": -8.856,
+    "longitude": 13.260,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Coleta Seletiva #14",
+    "latitude": -8.858,
+    "longitude": 13.263,
+    "materials": [
+      "Vidro",
+      "Papel"
+    ]
+  },
+  {
+    "name": "Ponto de Reciclagem #15",
+    "latitude": -8.860,
+    "longitude": 13.266,
+    "materials": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Estação Verde #16",
+    "latitude": -8.862,
+    "longitude": 13.270,
+    "materials": [
+      "Plástico",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Central de Coleta #17",
+    "latitude": -8.864,
+    "longitude": 13.273,
+    "materials": [
+      "Papel",
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ponto Limpo #18",
+    "latitude": -8.866,
+    "longitude": 13.276,
+    "materials": [
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Recicla Tudo #19",
+    "latitude": -8.868,
+    "longitude": 13.280,
+    "materials": [
+      "Vidro",
+      "Metal",
+      "Papel"
+    ]
+  },
+  {
+    "name": "Ecoponto Oeste #20",
+    "latitude": -8.870,
+    "longitude": 13.283,
+    "materials": [
+      "Plástico",
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Coleta do Bairro #21",
+    "latitude": -8.872,
+    "longitude": 13.286,
+    "materials": [
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ponto Verde de Eletrônicos #22",
+    "latitude": -8.874,
+    "longitude": 13.290,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Estação Norte #23",
+    "latitude": -8.876,
+    "longitude": 13.293,
+    "materials": [
+      "Papel",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Recicla Leste #24",
+    "latitude": -8.878,
+    "longitude": 13.296,
+    "materials": [
+      "Metal",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Coleta Consciente #25",
+    "latitude": -8.880,
+    "longitude": 13.300,
+    "materials": [
+      "Papel"
+    ]
+  },
+  {
+    "name": "Ecoponto Central #26",
+    "latitude": -8.882,
+    "longitude": 13.303,
+    "materials": [
+      "Plástico",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto Comunitário #27",
+    "latitude": -8.884,
+    "longitude": 13.306,
+    "materials": [
+      "Vidro",
+      "Papel"
+    ]
+  },
+  {
+    "name": "Descarte Consciente #28",
+    "latitude": -8.886,
+    "longitude": 13.310,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ecopraça da Cidade #29",
+    "latitude": -8.888,
+    "longitude": 13.313,
+    "materials": [
+      "Plástico",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Estação Ambiental #30",
+    "latitude": -8.890,
+    "longitude": 13.316,
+    "materials": [
+      "Papel"
+    ]
+  },
+  {
+    "name": "Coleta Seletiva #31",
+    "latitude": -8.892,
+    "longitude": 13.320,
+    "materials": [
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ponto de Reciclagem #32",
+    "latitude": -8.894,
+    "longitude": 13.323,
+    "materials": [
+      "Metal",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Unidade de Tratamento #33",
+    "latitude": -8.896,
+    "longitude": 13.326,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Central de Resíduos #34",
+    "latitude": -8.898,
+    "longitude": 13.330,
+    "materials": [
+      "Papel",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ponto Limpo #35",
+    "latitude": -8.900,
+    "longitude": 13.333,
+    "materials": [
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Recicla Tudo #36",
+    "latitude": -8.902,
+    "longitude": 13.336,
+    "materials": [
+      "Vidro",
+      "Metal",
+      "Papel"
+    ]
+  },
+  {
+    "name": "Ecoponto Marítimo #37",
+    "latitude": -8.904,
+    "longitude": 13.340,
+    "materials": [
+      "Metal",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Coleta Urbana #38",
+    "latitude": -8.906,
+    "longitude": 13.343,
+    "materials": [
+      "Papel"
+    ]
+  },
+  {
+    "name": "Ponto Sustentável #39",
+    "latitude": -8.908,
+    "longitude": 13.346,
+    "materials": [
+      "Vidro",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Centro de Eletrônicos #40",
+    "latitude": -8.910,
+    "longitude": 13.350,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Estação Verde #41",
+    "latitude": -8.912,
+    "longitude": 13.353,
+    "materials": [
+      "Papel",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Coleta do Morro #42",
+    "latitude": -8.914,
+    "longitude": 13.356,
+    "materials": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto de Vidro e Metal #43",
+    "latitude": -8.916,
+    "longitude": 13.360,
+    "materials": [
+      "Vidro",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Reciclagem Express #44",
+    "latitude": -8.918,
+    "longitude": 13.363,
+    "materials": [
+      "Papel",
+      "Plástico",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ecoponto da Lagoa #45",
+    "latitude": -8.920,
+    "longitude": 13.366,
+    "materials": [
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Coleta Rápida #46",
+    "latitude": -8.922,
+    "longitude": 13.370,
+    "materials": [
+      "Papel",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto de Descarte #47",
+    "latitude": -8.924,
+    "longitude": 13.373,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Estação Sul #48",
+    "latitude": -8.926,
+    "longitude": 13.376,
+    "materials": [
+      "Vidro",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Central de Recicláveis #49",
+    "latitude": -8.928,
+    "longitude": 13.380,
+    "materials": [
+      "Papel",
+      "Metal",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Ponto de Coleta #50",
+    "latitude": -8.930,
+    "longitude": 13.383,
+    "materials": [
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ecoponto Urbano #51",
+    "latitude": -8.932,
+    "longitude": 13.386,
+    "materials": [
+      "Plástico",
+      "Papel"
+    ]
+  }
+]

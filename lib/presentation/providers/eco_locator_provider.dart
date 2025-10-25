@@ -92,7 +92,7 @@ class EcoLocatorProvider extends ChangeNotifier {
     _setErrorMessage(null);
     try {
       _allRecyclingPoints = await getAllRecyclingPoints();
-      changeFilter(currentFilter: RecyclingType.all);
+      // applyFilter(currentFilter: RecyclingType.all);
     } catch (e) {
       _setErrorMessage(
         "Falha ao carregar pontos de reciclagem: ${e.toString()}",
@@ -101,7 +101,7 @@ class EcoLocatorProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void closeFilterModal({required BuildContext context}) {
+  void _closeFilterModal({required BuildContext context}) {
     Navigator.pop(context);
   }
 
@@ -114,15 +114,23 @@ class EcoLocatorProvider extends ChangeNotifier {
   void changeFilter({required RecyclingType currentFilter}) {
     _recyclingType = currentFilter;
 
-    if (_recyclingType == "Todos") {
+    notifyListeners();
+  }
+
+  void applyFilter(BuildContext context) {
+    if (_recyclingType == RecyclingType.all) {
       _filteredRecyclingPoints = List.from(_allRecyclingPoints);
     } else {
+      final typeLabel = _recyclingType.label;
       _filteredRecyclingPoints = _allRecyclingPoints
-          .where((point) => point.acceptedMaterials.contains(_recyclingType))
+          .where((point) => point.acceptedMaterials.contains(typeLabel))
           .toList();
     }
 
     notifyListeners();
+
+    print("O FILTRO ====>>: $_filteredRecyclingPoints");
+    _closeFilterModal(context: context);
   }
 
   Future<double?> getDistanceToPoint(RecyclingPoint point) async {

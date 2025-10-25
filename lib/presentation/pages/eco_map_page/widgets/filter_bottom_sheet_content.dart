@@ -114,12 +114,12 @@ class FilterBottomSheetContent extends StatelessWidget {
                         ),
                       ),
                       RecycleStatusFilterWidget(
-                        status: "Pilhas e baterias",
+                        status: "Eletrônicos",
                         isActive: ecoLocatorProvider.isFilterActive(
-                          recyclingType: RecyclingType.batteries,
+                          recyclingType: RecyclingType.electronics,
                         ),
                         onTap: () => ecoLocatorProvider.changeFilter(
-                          currentFilter: RecyclingType.batteries,
+                          currentFilter: RecyclingType.electronics,
                         ),
                       ),
                       SizedBox(width: 20),
@@ -132,8 +132,9 @@ class FilterBottomSheetContent extends StatelessWidget {
                   child: SimpleTextButton(
                     isEnabled: true,
                     isExpanded: true,
-                    onPressed: () async =>
-                        ecoLocatorProvider.closeFilterModal(context: context),
+                    onPressed: () async => {
+                      ecoLocatorProvider.applyFilter(context)
+                    },
                     label: "Aplicar filtro",
                   ),
                 ),
