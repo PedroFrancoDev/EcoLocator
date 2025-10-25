@@ -1,5 +1,5 @@
 enum RecyclingType {
-  all,
+  all, // Todos
   glass, // Vidro
   plastic, // Plástico
   paper, // Papel

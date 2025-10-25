@@ -16,12 +16,6 @@ class App extends StatelessWidget {
 
     return MultiProvider(
       providers: [
-        ChangeNotifierProvider(
-          create: (context) => EcoLocatorProvider(
-            getAllRecyclingPoints: context.read<GetRecyclingPointsUseCase>(),
-            calculateDistance: context.read<CalculateDistanceUseCase>(),
-          )..initializeApp(),
-        ),
         Provider<GetRecyclingPointsUseCase>(
           create: (context) => GetRecyclingPointsUseCase(
             context.read<IRecyclingPointRepository>(),
@@ -31,6 +25,12 @@ class App extends StatelessWidget {
           create: (_) => CalculateDistanceUseCase(
             context.read<IRecyclingPointRepository>(),
           ),
+        ),
+        ChangeNotifierProvider(
+          create: (context) => EcoLocatorProvider(
+            getAllRecyclingPoints: context.read<GetRecyclingPointsUseCase>(),
+            calculateDistance: context.read<CalculateDistanceUseCase>(),
+          )..initializeApp(),
         ),
       ],
       child: MaterialApp(

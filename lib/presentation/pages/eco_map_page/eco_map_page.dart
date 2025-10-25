@@ -1,4 +1,5 @@
 import "package:eco_locator/presentation/pages/eco_map_page/widgets/filter_bottom_sheet_content.dart";
+import "package:eco_locator/presentation/pages/eco_map_page/widgets/map_widget.dart";
 import "package:eco_locator/presentation/providers/eco_locator_provider.dart";
 import "package:eco_locator/presentation/providers/theme_provider.dart";
 import "package:eco_locator/presentation/widgets/eco_point_info.dart";
@@ -78,21 +79,13 @@ class _EcoMapPageState extends State<EcoMapPage> {
             children: [
               Stack(
                 children: [
-                  GestureDetector(
-                    onTap: () {
-                      showEcoPointInfo(
-                        context,
-                        nomePonto: "Ponto Verde Central",
-                        tipoMaterial: "Plástico, Vidro, Papel",
-                        distanciaKm: 1.8,
-                        themeStatus: themeProvider.currentThemeStatus,
-                      );
-                    },
-                    child: Container(
-                      height: double.infinity,
-                      width: double.infinity,
-                      color: Colors.lightGreen,
-                      child: Text("Lugar do MAPP"),
+                  Container(
+                    height: double.infinity,
+                    width: double.infinity,
+                    child: MapWidget(
+                      center: center,
+                      provider: provider,
+                      mapController: _mapController,
                     ),
                   ),
                   FloatingAppBar(themeStatus: themeProvider.currentThemeStatus),

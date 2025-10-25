@@ -41,6 +41,7 @@ dependencies:
   latlong2: ^0.9.1
   flutter_dotenv: ^6.0.0
   flutter_map: ^8.2.2
+  font_awesome_flutter: ^10.9.1
 
 flutter_native_splash:
   color: "#4CAF50"                # cor de fundo (usa tua cor primária da Marpef)
@@ -77,6 +78,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
+    - .env
     - lib/assets/
     - lib/assets/icons/
 

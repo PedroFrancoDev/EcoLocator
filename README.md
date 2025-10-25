@@ -57,10 +57,6 @@ lib/
 │ ├── widgets/
 │
 └── main.dart
-
-yaml
-Copiar código
-
 ---
 
 ## Testes
