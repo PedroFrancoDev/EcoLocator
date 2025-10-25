@@ -36,6 +36,7 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter_native_splash: ^2.4.7
   flutter_svg: ^2.2.1
+  provider: ^6.1.5+1
 
 flutter_native_splash:
   color: "#4CAF50"                # cor de fundo (usa tua cor primária da Marpef)

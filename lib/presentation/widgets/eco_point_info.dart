@@ -1,3 +1,4 @@
+import "package:eco_locator/core/enums/theme_status.dart";
 import "package:eco_locator/presentation/widgets/simple_text_button.dart";
 import "package:flutter/material.dart";
 
@@ -6,13 +7,15 @@ void showEcoPointInfo(
   required String nomePonto,
   required String tipoMaterial,
   required double distanciaKm,
+  required ThemeStatus themeStatus,
 }) {
   showDialog(
     context: context,
     barrierDismissible: true,
+    barrierColor: Colors.black.withValues(alpha: 0.3),
     builder: (context) {
       return Dialog(
-        backgroundColor: Colors.white,
+        backgroundColor: Theme.of(context).dialogTheme.backgroundColor,
         insetPadding: const EdgeInsets.symmetric(horizontal: 24, vertical: 24),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(24)),
         child: Padding(
@@ -26,7 +29,9 @@ void showEcoPointInfo(
                   width: 50,
                   height: 5,
                   decoration: BoxDecoration(
-                    color: Color(0xFFE2E4EA),
+                    color: themeStatus == ThemeStatus.dark
+                        ? Colors.grey[400]
+                        : Color(0xFFE2E4EA),
                     borderRadius: BorderRadius.circular(2),
                   ),
                 ),
@@ -39,10 +44,12 @@ void showEcoPointInfo(
                   Expanded(
                     child: Text(
                       nomePonto,
-                      style: const TextStyle(
+                      style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.w600,
-                        color: Colors.black87,
+                        color: themeStatus == ThemeStatus.dark
+                            ? Colors.white
+                            : Colors.black87,
                       ),
                     ),
                   ),
@@ -55,18 +62,32 @@ void showEcoPointInfo(
                   const SizedBox(width: 8),
                   Text(
                     tipoMaterial,
-                    style: const TextStyle(fontSize: 16, color: Colors.black54),
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: themeStatus == ThemeStatus.dark
+                          ? Colors.white
+                          : Colors.black54,
+                    ),
                   ),
                 ],
               ),
               const SizedBox(height: 12),
               Row(
                 children: [
-                  const Icon(Icons.social_distance, color: Colors.orange, size: 22),
+                  const Icon(
+                    Icons.social_distance,
+                    color: Colors.orange,
+                    size: 22,
+                  ),
                   const SizedBox(width: 8),
                   Text(
                     "${distanciaKm.toStringAsFixed(2)} km de distância",
-                    style: const TextStyle(fontSize: 16, color: Colors.black54),
+                    style: TextStyle(
+                      fontSize: 16,
+                      color: themeStatus == ThemeStatus.dark
+                          ? Colors.white
+                          : Colors.black54,
+                    ),
                   ),
                 ],
               ),
