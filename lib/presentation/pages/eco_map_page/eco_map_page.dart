@@ -1,4 +1,5 @@
 import "package:eco_locator/presentation/pages/eco_map_page/widgets/filter_bottom_sheet_content.dart";
+import "package:eco_locator/presentation/pages/eco_map_page/widgets/map_skeleton.dart";
 import "package:eco_locator/presentation/pages/eco_map_page/widgets/map_widget.dart";
 import "package:eco_locator/presentation/providers/eco_locator_provider.dart";
 import "package:eco_locator/presentation/providers/theme_provider.dart";
@@ -40,12 +41,7 @@ class _EcoMapPageState extends State<EcoMapPage> {
       body: Consumer<EcoLocatorProvider>(
         builder: (context, provider, child) {
           if (provider.isLoading) {
-            return Center(
-              child: CircularProgressIndicator(
-                strokeWidth: 2,
-                color: Color(0XFF2E7D32),
-              ),
-            );
+            return MapSkeleton();
           }
 
           if (provider.errorMessage != null) {
