@@ -55,20 +55,20 @@ class MapWidget extends StatelessWidget {
                 point: point.location,
                 width: 100,
                 height: 100,
+
                 child: GestureDetector(
-                  onTap: () {
-                    showEcoPointInfo(
-                      context,
-                      nomePonto: "Ponto Verde Central #34",
-                      tipoMaterial: "Plástico, Vidro, Papel",
-                      distanciaKm: 1.8,
-                      themeStatus: themeProvider.currentThemeStatus,
-                    );
-                  },
+                  onTap: () => showEcoPointInfo(
+                    context,
+                    provider: provider,
+                    nomePonto: point.nome,
+                    materiais: point.acceptedMaterials,
+                    location: point.location,
+                    themeStatus: themeProvider.currentThemeStatus,
+                  ),
                   child: Icon(
                     _getMaterialIcon(point.acceptedMaterials.first),
                     color: _getMaterialColor(point.acceptedMaterials),
-                    size: 20,
+                    size: 32,
                   ),
                 ),
               );

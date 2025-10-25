@@ -92,11 +92,29 @@ class EcoLocatorProvider extends ChangeNotifier {
     _setErrorMessage(null);
     try {
       _allRecyclingPoints = await getAllRecyclingPoints();
-      // applyFilter(currentFilter: RecyclingType.all);
+
+      // ✅ Preenche lista filtrada ao carregar
+      if (_recyclingType == RecyclingType.all) {
+        _filteredRecyclingPoints = List.from(_allRecyclingPoints);
+      } else {
+        applyFilterWithoutContext();
+      }
     } catch (e) {
       _setErrorMessage(
         "Falha ao carregar pontos de reciclagem: ${e.toString()}",
       );
+    }
+    notifyListeners();
+  }
+
+  void applyFilterWithoutContext() {
+    if (_recyclingType == RecyclingType.all) {
+      _filteredRecyclingPoints = List.from(_allRecyclingPoints);
+    } else {
+      final typeLabel = _recyclingType.label;
+      _filteredRecyclingPoints = _allRecyclingPoints
+          .where((point) => point.acceptedMaterials.contains(typeLabel))
+          .toList();
     }
     notifyListeners();
   }
@@ -128,8 +146,6 @@ class EcoLocatorProvider extends ChangeNotifier {
     }
 
     notifyListeners();
-
-    print("O FILTRO ====>>: $_filteredRecyclingPoints");
     _closeFilterModal(context: context);
   }
 
