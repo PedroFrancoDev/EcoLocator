@@ -36,15 +36,7 @@ class FloatingAppBar extends StatelessWidget {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          GestureDetector(
-            onTap: () => {},
-            child: Icon(
-              Platform.isAndroid
-                  ? Icons.arrow_back
-                  : Icons.chevron_left_rounded,
-              color: Colors.white,
-            ),
-          ),
+         SizedBox(width: 24),
           Text(
             "Eco Locator",
             style: TextStyle(

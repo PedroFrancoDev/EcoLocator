@@ -37,6 +37,10 @@ dependencies:
   flutter_native_splash: ^2.4.7
   flutter_svg: ^2.2.1
   provider: ^6.1.5+1
+  geolocator: ^14.0.2
+  latlong2: ^0.9.1
+  flutter_dotenv: ^6.0.0
+  flutter_map: ^8.2.2
 
 flutter_native_splash:
   color: "#4CAF50"                # cor de fundo (usa tua cor primária da Marpef)
