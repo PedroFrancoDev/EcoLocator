@@ -43,8 +43,8 @@ class EcoLocatorProvider extends ChangeNotifier {
 
   Future<void> initializeApp() async {
     _setLoading(true);
-    await _getCurrentLocation();
-    await _loadRecyclingPoints();
+     await _getCurrentLocation();
+     await _loadRecyclingPoints();
     _setLoading(false);
   }
 
@@ -70,10 +70,10 @@ class EcoLocatorProvider extends ChangeNotifier {
 
     if (permission == LocationPermission.deniedForever) {
       _setErrorMessage(
-        "Permissão de localização permanentemente negada. Por favor, ative nas configurações do app.",
+        "Localização desativada. Ative o acesso à localização nas configurações do app.",
       );
       return Future.error(
-        "Location permissions are permanently denied, we cannot request permissions.",
+        "As permissões de localização foram negadas permanentemente. Não é possível solicitá-las novamente.",
       );
     }
 
@@ -93,7 +93,6 @@ class EcoLocatorProvider extends ChangeNotifier {
     try {
       _allRecyclingPoints = await getAllRecyclingPoints();
 
-      // ✅ Preenche lista filtrada ao carregar
       if (_recyclingType == RecyclingType.all) {
         _filteredRecyclingPoints = List.from(_allRecyclingPoints);
       } else {

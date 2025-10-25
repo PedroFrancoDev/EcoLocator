@@ -3,6 +3,7 @@ import "package:eco_locator/presentation/pages/eco_map_page/widgets/map_widget.d
 import "package:eco_locator/presentation/providers/eco_locator_provider.dart";
 import "package:eco_locator/presentation/providers/theme_provider.dart";
 import "package:eco_locator/presentation/widgets/floating_app_bar.dart";
+import "package:eco_locator/presentation/widgets/simple_text_button.dart";
 import "package:flutter/material.dart";
 import "package:flutter_map/flutter_map.dart";
 import "package:flutter_svg/svg.dart";
@@ -60,11 +61,9 @@ class _EcoMapPageState extends State<EcoMapPage> {
                       style: const TextStyle(fontSize: 16, color: Colors.red),
                     ),
                     const SizedBox(height: 20),
-                    ElevatedButton(
-                      onPressed: () {
-                        provider.initializeApp();
-                      },
-                      child: const Text("Tentar Novamente"),
+                    SimpleTextButton(
+                      label: "Tentar Novamente",
+                      onPressed: () => provider.initializeApp(),
                     ),
                     if (provider.errorMessage!.contains(
                       "Permissão de localização negada",

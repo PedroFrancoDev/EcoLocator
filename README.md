@@ -32,37 +32,28 @@ Utiliza mapas gratuitos do **OpenStreetMap**, permitindo interação em tempo re
 
 ---
 
-## Estrutura do Projeto
+# Estrutura do Projeto
 
+```text
 lib/
-│
 ├── core/
-│ ├── constants/
-│ ├── utils/
-│ └── theme/
-│
+│   ├── constants/
+│   ├── utils/
+│   └── theme/
 ├── data/
-│ ├── datasources/
-│ ├── models/
-│ └── repositories/
-│
+│   ├── datasources/
+│   ├── models/
+│   └── repositories/
 ├── domain/
-│ ├── entities/
-│ ├── repositories/
-│ └── usecases/
-│
+│   ├── entities/
+│   ├── repositories/
+│   └── usecases/
 ├── presentation/
-│ ├── providers/
-│ ├── pages/
-│ ├── widgets/
-│
+│   ├── providers/
+│   ├── pages/
+│   └── widgets/
 └── main.dart
 ---
-
-## Testes
-
-Os testes unitários garantem a precisão do cálculo de distância utilizando a fórmula de Haversine, validando a confiabilidade dos resultados.
-
 Para rodar os testes:
 
 ```bash
