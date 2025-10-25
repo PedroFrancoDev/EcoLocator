@@ -5,18 +5,18 @@ Utiliza mapas gratuitos do **OpenStreetMap**, permitindo interação em tempo re
 
 ---
 
-## Funcionalidades Principais
+## 🧩 Funcionalidades Principais
 
-- Obtenção da localização atual do usuário (com permissão de GPS)  
-- Exibição de mapa interativo via OpenStreetMap  
+- Localização atual do usuário (com permissão de GPS)  
+- Mapa interativo via **OpenStreetMap**  
 - Marcadores personalizados para pontos de reciclagem  
-- Exibição de informações do ponto: nome, tipo de material e distância até o local  
+- Exibição de informações: nome, tipo de material e distância  
 - Filtro por tipo de reciclagem (plástico, vidro, papel, eletrônicos etc.)  
 - Tema claro e escuro dinâmico  
 
 ---
 
-## Stack Técnica
+## ⚙️ Stack Técnica
 
 | Componente | Tecnologia Utilizada |
 |-------------|----------------------|
@@ -32,12 +32,12 @@ Utiliza mapas gratuitos do **OpenStreetMap**, permitindo interação em tempo re
 
 ---
 
-# Estrutura do Projeto
+## 🗂️ Estrutura do Projeto
 
 ```text
 lib/
 ├── core/
-│   ├── constants/
+│   ├── enum/
 │   ├── utils/
 │   └── theme/
 ├── data/
@@ -53,61 +53,22 @@ lib/
 │   ├── pages/
 │   └── widgets/
 └── main.dart
----
-Para rodar os testes:
 
-```bash
-flutter test
-Instalação e Execução
-Clone o repositório:
-
-bash
-Copiar código
+# **Clone o repositório**
 git clone https://github.com/seu-usuario/ecolocator.git
-Acesse a pasta do projeto:
 
-bash
-Copiar código
+# Acesse a pasta do projeto
 cd ecolocator
-Instale as dependências:
 
-bash
-Copiar código
+# Instale as dependências
 flutter pub get
-Execute o aplicativo:
 
-bash
-Copiar código
+# Execute o aplicativo
 flutter run
-Build do APK
-Para gerar o APK de instalação no Android:
 
-bash
-Copiar código
-flutter build apk --release
-O arquivo gerado estará em:
+💡 Diferenciais Técnicos
 
-swift
-Copiar código
-build/app/outputs/flutter-apk/app-release.apk
-Diferenciais Técnicos
 Clean Architecture
-
-Testes unitários
-
 Tema dinâmico (claro/escuro)
-
 Uso eficiente de geolocalização e mapas abertos
-
 Interface leve e intuitiva
-
-Desenvolvido por
-Pedro Franco
-Flutter Developer | Web & Mobile
-LinkedIn • GitHub
-
-
-
-
-
-
