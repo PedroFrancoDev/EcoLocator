@@ -1,162 +1,164 @@
 [
   {
-    "name": "Ecoponto #1",
-    "latitude": -8.8301,
-    "longitude": 13.2201,
+    "name": "Ecoponto Ingombota #1",
+    "latitude": -8.8172,
+    "longitude": 13.2354,
     "materials": [
       "Plástico",
       "Vidro"
     ]
   },
   {
-    "name": "Coleta #2",
-    "latitude": -8.8325,
-    "longitude": 13.2253,
+    "name": "Centro Recicla Kilamba #2",
+    "latitude": -8.9771,
+    "longitude": 13.2923,
     "materials": [
       "Papel",
       "Metal"
     ]
   },
   {
-    "name": "Ponto Verde #3",
-    "latitude": -8.835,
-    "longitude": 13.228,
+    "name": "Ponto Verde Talatona #3",
+    "latitude": -8.9274,
+    "longitude": 13.2259,
     "materials": [
       "Eletrônicos"
     ]
   },
   {
-    "name": "Estação Sul #4",
-    "latitude": -8.838,
-    "longitude": 13.232,
+    "name": "Estação Ecológica Viana #4",
+    "latitude": -8.8587,
+    "longitude": 13.3924,
     "materials": [
       "Vidro",
       "Plástico"
     ]
   },
   {
-    "name": "Recicla Centro #5",
-    "latitude": -8.840,
-    "longitude": 13.235,
+    "name": "Recicla Benfica #5",
+    "latitude": -8.9812,
+    "longitude": 13.2141,
     "materials": [
       "Metal"
     ]
   },
   {
-    "name": "Coleta Rápida #6",
-    "latitude": -8.842,
-    "longitude": 13.238,
+    "name": "Ecoponto Camama #6",
+    "latitude": -8.9165,
+    "longitude": 13.2682,
     "materials": [
-      "Papel"
+      "Papel",
+      "Vidro"
     ]
   },
   {
-    "name": "Ecoponto Norte #7",
-    "latitude": -8.844,
-    "longitude": 13.240,
+    "name": "Ponto Verde Maianga #7",
+    "latitude": -8.8256,
+    "longitude": 13.2388,
     "materials": [
       "Plástico",
       "Metal"
     ]
   },
   {
-    "name": "Ponto de Triagem #8",
-    "latitude": -8.846,
-    "longitude": 13.243,
-    "materials": [
-      "Vidro"
-    ]
-  },
-  {
-    "name": "Central de Resíduos #9",
-    "latitude": -8.848,
-    "longitude": 13.246,
-    "materials": [
-      "Papel",
-      "Eletrônicos"
-    ]
-  },
-  {
-    "name": "Coleta Urbana #10",
-    "latitude": -8.850,
-    "longitude": 13.250,
-    "materials": [
-      "Plástico"
-    ]
-  },
-  {
-    "name": "Ponto Sustentável #11",
-    "latitude": -8.852,
-    "longitude": 13.253,
-    "materials": [
-      "Vidro",
-      "Metal"
-    ]
-  },
-  {
-    "name": "Ecoponto Leste #12",
-    "latitude": -8.854,
-    "longitude": 13.256,
-    "materials": [
-      "Papel",
-      "Plástico"
-    ]
-  },
-  {
-    "name": "Recicla Sul #13",
-    "latitude": -8.856,
-    "longitude": 13.260,
-    "materials": [
-      "Eletrônicos"
-    ]
-  },
-  {
-    "name": "Coleta Seletiva #14",
-    "latitude": -8.858,
-    "longitude": 13.263,
+    "name": "Coleta Urbana Samba #8",
+    "latitude": -8.8793,
+    "longitude": 13.2362,
     "materials": [
       "Vidro",
       "Papel"
     ]
   },
   {
-    "name": "Ponto de Reciclagem #15",
-    "latitude": -8.860,
-    "longitude": 13.266,
-    "materials": [
-      "Metal"
-    ]
-  },
-  {
-    "name": "Estação Verde #16",
-    "latitude": -8.862,
-    "longitude": 13.270,
-    "materials": [
-      "Plástico",
-      "Vidro"
-    ]
-  },
-  {
-    "name": "Central de Coleta #17",
-    "latitude": -8.864,
-    "longitude": 13.273,
+    "name": "Central de Resíduos Rangel #9",
+    "latitude": -8.8284,
+    "longitude": 13.2711,
     "materials": [
       "Papel",
       "Eletrônicos"
     ]
   },
   {
-    "name": "Ponto Limpo #18",
-    "latitude": -8.866,
-    "longitude": 13.276,
+    "name": "Ecoponto Rocha Pinto #10",
+    "latitude": -8.8535,
+    "longitude": 13.2639,
     "materials": [
       "Plástico"
     ]
   },
   {
-    "name": "Recicla Tudo #19",
-    "latitude": -8.868,
-    "longitude": 13.280,
+    "name": "Ponto Sustentável Cazenga #11",
+    "latitude": -8.8148,
+    "longitude": 13.3274,
+    "materials": [
+      "Vidro",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ecoponto Hoji Ya Henda #12",
+    "latitude": -8.8111,
+    "longitude": 13.3419,
+    "materials": [
+      "Papel",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Recicla Kilamba Kiaxi #13",
+    "latitude": -8.9196,
+    "longitude": 13.2753,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ponto Verde Benfica #14",
+    "latitude": -8.9872,
+    "longitude": 13.2168,
+    "materials": [
+      "Vidro",
+      "Papel"
+    ]
+  },
+  {
+    "name": "Coleta Seletiva Gamek #15",
+    "latitude": -8.8834,
+    "longitude": 13.2516,
+    "materials": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Estação Verde Cacuaco #16",
+    "latitude": -8.7412,
+    "longitude": 13.3617,
+    "materials": [
+      "Plástico",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Central de Coleta Sapú #17",
+    "latitude": -8.8719,
+    "longitude": 13.3104,
+    "materials": [
+      "Papel",
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ecoponto Golf 2 #18",
+    "latitude": -8.8732,
+    "longitude": 13.2968,
+    "materials": [
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Recicla Tudo Viana #19",
+    "latitude": -8.8598,
+    "longitude": 13.3972,
     "materials": [
       "Vidro",
       "Metal",
@@ -164,145 +166,145 @@
     ]
   },
   {
-    "name": "Ecoponto Oeste #20",
-    "latitude": -8.870,
-    "longitude": 13.283,
+    "name": "Ecoponto Kikuxi #20",
+    "latitude": -8.8875,
+    "longitude": 13.4157,
     "materials": [
       "Plástico",
       "Eletrônicos"
     ]
   },
   {
-    "name": "Coleta do Bairro #21",
-    "latitude": -8.872,
-    "longitude": 13.286,
+    "name": "Coleta do Bairro Samba #21",
+    "latitude": -8.9054,
+    "longitude": 13.2319,
     "materials": [
       "Vidro"
     ]
   },
   {
-    "name": "Ponto Verde de Eletrônicos #22",
-    "latitude": -8.874,
-    "longitude": 13.290,
+    "name": "Ponto Verde Morro Bento #22",
+    "latitude": -8.9504,
+    "longitude": 13.2205,
     "materials": [
       "Eletrônicos"
     ]
   },
   {
-    "name": "Estação Norte #23",
-    "latitude": -8.876,
-    "longitude": 13.293,
+    "name": "Estação Norte Cazenga #23",
+    "latitude": -8.8092,
+    "longitude": 13.3242,
     "materials": [
       "Papel",
       "Plástico"
     ]
   },
   {
-    "name": "Recicla Leste #24",
-    "latitude": -8.878,
-    "longitude": 13.296,
+    "name": "Recicla Talatona #24",
+    "latitude": -8.9345,
+    "longitude": 13.2174,
     "materials": [
       "Metal",
       "Vidro"
     ]
   },
   {
-    "name": "Coleta Consciente #25",
-    "latitude": -8.880,
-    "longitude": 13.300,
+    "name": "Coleta Consciente Benfica #25",
+    "latitude": -8.9826,
+    "longitude": 13.2025,
     "materials": [
       "Papel"
     ]
   },
   {
-    "name": "Ecoponto Central #26",
-    "latitude": -8.882,
-    "longitude": 13.303,
+    "name": "Ecoponto Patriota #26",
+    "latitude": -8.9138,
+    "longitude": 13.2694,
     "materials": [
       "Plástico",
       "Metal"
     ]
   },
   {
-    "name": "Ponto Comunitário #27",
-    "latitude": -8.884,
-    "longitude": 13.306,
+    "name": "Ponto Comunitário Camama #27",
+    "latitude": -8.9063,
+    "longitude": 13.2802,
     "materials": [
       "Vidro",
       "Papel"
     ]
   },
   {
-    "name": "Descarte Consciente #28",
-    "latitude": -8.886,
-    "longitude": 13.310,
+    "name": "Descarte Consciente Zango #28",
+    "latitude": -8.8442,
+    "longitude": 13.4229,
     "materials": [
       "Eletrônicos"
     ]
   },
   {
-    "name": "Ecopraça da Cidade #29",
-    "latitude": -8.888,
-    "longitude": 13.313,
+    "name": "Ecopraça Kilamba #29",
+    "latitude": -8.9761,
+    "longitude": 13.2875,
     "materials": [
       "Plástico",
       "Vidro"
     ]
   },
   {
-    "name": "Estação Ambiental #30",
-    "latitude": -8.890,
-    "longitude": 13.316,
+    "name": "Estação Ambiental Nova Vida #30",
+    "latitude": -8.8802,
+    "longitude": 13.2903,
     "materials": [
       "Papel"
     ]
   },
   {
-    "name": "Coleta Seletiva #31",
-    "latitude": -8.892,
-    "longitude": 13.320,
+    "name": "Coleta Seletiva Cazenga #31",
+    "latitude": -8.8124,
+    "longitude": 13.3384,
     "materials": [
       "Vidro"
     ]
   },
   {
-    "name": "Ponto de Reciclagem #32",
-    "latitude": -8.894,
-    "longitude": 13.323,
+    "name": "Ponto de Reciclagem Talatona #32",
+    "latitude": -8.9401,
+    "longitude": 13.2276,
     "materials": [
       "Metal",
       "Plástico"
     ]
   },
   {
-    "name": "Unidade de Tratamento #33",
-    "latitude": -8.896,
-    "longitude": 13.326,
+    "name": "Unidade de Tratamento Kilamba #33",
+    "latitude": -8.9677,
+    "longitude": 13.2763,
     "materials": [
       "Eletrônicos"
     ]
   },
   {
-    "name": "Central de Resíduos #34",
-    "latitude": -8.898,
-    "longitude": 13.330,
+    "name": "Central de Resíduos Viana #34",
+    "latitude": -8.8531,
+    "longitude": 13.3915,
     "materials": [
       "Papel",
       "Vidro"
     ]
   },
   {
-    "name": "Ponto Limpo #35",
-    "latitude": -8.900,
-    "longitude": 13.333,
+    "name": "Ponto Limpo Cacuaco #35",
+    "latitude": -8.7552,
+    "longitude": 13.3634,
     "materials": [
       "Plástico"
     ]
   },
   {
-    "name": "Recicla Tudo #36",
-    "latitude": -8.902,
-    "longitude": 13.336,
+    "name": "Recicla Tudo Talatona #36",
+    "latitude": -8.9374,
+    "longitude": 13.2149,
     "materials": [
       "Vidro",
       "Metal",
@@ -310,69 +312,69 @@
     ]
   },
   {
-    "name": "Ecoponto Marítimo #37",
-    "latitude": -8.904,
-    "longitude": 13.340,
+    "name": "Ecoponto Benfica #37",
+    "latitude": -8.9781,
+    "longitude": 13.2138,
     "materials": [
       "Metal",
       "Plástico"
     ]
   },
   {
-    "name": "Coleta Urbana #38",
-    "latitude": -8.906,
-    "longitude": 13.343,
+    "name": "Coleta Urbana Maianga #38",
+    "latitude": -8.8223,
+    "longitude": 13.2479,
     "materials": [
       "Papel"
     ]
   },
   {
-    "name": "Ponto Sustentável #39",
-    "latitude": -8.908,
-    "longitude": 13.346,
+    "name": "Ponto Sustentável Ingombota #39",
+    "latitude": -8.8194,
+    "longitude": 13.2351,
     "materials": [
       "Vidro",
       "Plástico"
     ]
   },
   {
-    "name": "Centro de Eletrônicos #40",
-    "latitude": -8.910,
-    "longitude": 13.350,
+    "name": "Centro de Eletrônicos Viana #40",
+    "latitude": -8.8659,
+    "longitude": 13.3958,
     "materials": [
       "Eletrônicos"
     ]
   },
   {
-    "name": "Estação Verde #41",
-    "latitude": -8.912,
-    "longitude": 13.353,
+    "name": "Estação Verde Kilamba #41",
+    "latitude": -8.9651,
+    "longitude": 13.2857,
     "materials": [
       "Papel",
       "Plástico"
     ]
   },
   {
-    "name": "Coleta do Morro #42",
-    "latitude": -8.914,
-    "longitude": 13.356,
+    "name": "Coleta do Morro Bento #42",
+    "latitude": -8.9438,
+    "longitude": 13.2284,
     "materials": [
       "Metal"
     ]
   },
   {
     "name": "Ponto de Vidro e Metal #43",
-    "latitude": -8.916,
-    "longitude": 13.360,
+    "latitude": -8.9085,
+    "longitude": 13.2717,
     "materials": [
       "Vidro",
       "Metal"
     ]
   },
   {
-    "name": "Reciclagem Express #44",
-    "latitude": -8.918,
-    "longitude": 13.363,
+    "name": "Reciclagem Express Viana #44",
+    "latitude": -8.8462,
+    "longitude": 13.4021,
     "materials": [
       "Papel",
       "Plástico",
@@ -380,43 +382,43 @@
     ]
   },
   {
-    "name": "Ecoponto da Lagoa #45",
-    "latitude": -8.920,
-    "longitude": 13.366,
+    "name": "Ecoponto da Samba #45",
+    "latitude": -8.8765,
+    "longitude": 13.2413,
     "materials": [
       "Plástico"
     ]
   },
   {
-    "name": "Coleta Rápida #46",
-    "latitude": -8.922,
-    "longitude": 13.370,
+    "name": "Coleta Rápida Cacuaco #46",
+    "latitude": -8.7715,
+    "longitude": 13.3579,
     "materials": [
       "Papel",
       "Metal"
     ]
   },
   {
-    "name": "Ponto de Descarte #47",
-    "latitude": -8.924,
-    "longitude": 13.373,
+    "name": "Ponto de Descarte Zango #47",
+    "latitude": -8.8382,
+    "longitude": 13.4162,
     "materials": [
       "Eletrônicos"
     ]
   },
   {
-    "name": "Estação Sul #48",
-    "latitude": -8.926,
-    "longitude": 13.376,
+    "name": "Estação Sul Benfica #48",
+    "latitude": -8.9942,
+    "longitude": 13.2035,
     "materials": [
       "Vidro",
       "Plástico"
     ]
   },
   {
-    "name": "Central de Recicláveis #49",
-    "latitude": -8.928,
-    "longitude": 13.380,
+    "name": "Central de Recicláveis Viana #49",
+    "latitude": -8.8594,
+    "longitude": 13.3979,
     "materials": [
       "Papel",
       "Metal",
@@ -424,20 +426,279 @@
     ]
   },
   {
-    "name": "Ponto de Coleta #50",
-    "latitude": -8.930,
-    "longitude": 13.383,
+    "name": "Ponto de Coleta Nova Vida #50",
+    "latitude": -8.8838,
+    "longitude": 13.2897,
     "materials": [
       "Vidro"
     ]
   },
   {
-    "name": "Ecoponto Urbano #51",
-    "latitude": -8.932,
-    "longitude": 13.386,
+    "name": "Ecoponto Urbano Kilamba #51",
+    "latitude": -8.9671,
+    "longitude": 13.2779,
     "materials": [
       "Plástico",
       "Papel"
+    ]
+  },
+  {
+    "name": "Recicla Luanda Sul #52",
+    "latitude": -8.9402,
+    "longitude": 13.2221,
+    "materials": [
+      "Vidro",
+      "Plástico",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto Verde Patriota #53",
+    "latitude": -8.9193,
+    "longitude": 13.2628,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ecoponto Morro Bento #54",
+    "latitude": -8.9512,
+    "longitude": 13.2183,
+    "materials": [
+      "Papel",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Centro Ambiental Viana #55",
+    "latitude": -8.8658,
+    "longitude": 13.4042,
+    "materials": [
+      "Plástico",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Coleta Sustentável Kilamba #56",
+    "latitude": -8.9725,
+    "longitude": 13.2839,
+    "materials": [
+      "Papel",
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ecoponto Camama #57",
+    "latitude": -8.9119,
+    "longitude": 13.2715,
+    "materials": [
+      "Metal",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Reciclagem Patriota #58",
+    "latitude": -8.9153,
+    "longitude": 13.2654,
+    "materials": [
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Ecoponto Maianga #59",
+    "latitude": -8.8298,
+    "longitude": 13.2471,
+    "materials": [
+      "Papel",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ponto Verde Viana #60",
+    "latitude": -8.8529,
+    "longitude": 13.3955,
+    "materials": [
+      "Plástico",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ecoponto Talatona #61",
+    "latitude": -8.9362,
+    "longitude": 13.2209,
+    "materials": [
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Coleta Urbana Zango #62",
+    "latitude": -8.8502,
+    "longitude": 13.4092,
+    "materials": [
+      "Papel",
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Recicla Cacuaco #63",
+    "latitude": -8.7634,
+    "longitude": 13.3675,
+    "materials": [
+      "Vidro",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Ecoponto Luanda Norte #64",
+    "latitude": -8.8021,
+    "longitude": 13.3483,
+    "materials": [
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto Limpo Talatona #65",
+    "latitude": -8.9251,
+    "longitude": 13.2318,
+    "materials": [
+      "Papel",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Coleta Central Camama #66",
+    "latitude": -8.9127,
+    "longitude": 13.2786,
+    "materials": [
+      "Vidro",
+      "Metal",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Ecoponto Cazenga #67",
+    "latitude": -8.8065,
+    "longitude": 13.3294,
+    "materials": [
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ponto de Reciclagem Kilamba #68",
+    "latitude": -8.9767,
+    "longitude": 13.2907,
+    "materials": [
+      "Plástico",
+      "Papel"
+    ]
+  },
+  {
+    "name": "Central Verde Viana #69",
+    "latitude": -8.8537,
+    "longitude": 13.3929,
+    "materials": [
+      "Vidro",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ecoponto Benfica #70",
+    "latitude": -8.9856,
+    "longitude": 13.2072,
+    "materials": [
+      "Papel",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Ponto de Coleta Ingombota #71",
+    "latitude": -8.8214,
+    "longitude": 13.2411,
+    "materials": [
+      "Metal",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Recicla Norte #72",
+    "latitude": -8.7995,
+    "longitude": 13.3458,
+    "materials": [
+      "Papel",
+      "Eletrônicos"
+    ]
+  },
+  {
+    "name": "Ecoponto Gamek #73",
+    "latitude": -8.8813,
+    "longitude": 13.2577,
+    "materials": [
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Ponto Verde Luanda #74",
+    "latitude": -8.8187,
+    "longitude": 13.2309,
+    "materials": [
+      "Vidro",
+      "Papel",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Estação Ambiental Camama #75",
+    "latitude": -8.9082,
+    "longitude": 13.2778,
+    "materials": [
+      "Plástico",
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ecoponto Zango #76",
+    "latitude": -8.8468,
+    "longitude": 13.4167,
+    "materials": [
+      "Eletrônicos",
+      "Papel"
+    ]
+  },
+  {
+    "name": "Coleta Patriota #77",
+    "latitude": -8.9195,
+    "longitude": 13.2644,
+    "materials": [
+      "Plástico",
+      "Vidro",
+      "Metal"
+    ]
+  },
+  {
+    "name": "Ponto de Descarte Talatona #78",
+    "latitude": -8.9391,
+    "longitude": 13.2291,
+    "materials": [
+      "Vidro"
+    ]
+  },
+  {
+    "name": "Ecoponto Luanda Sul #79",
+    "latitude": -8.9485,
+    "longitude": 13.2238,
+    "materials": [
+      "Papel",
+      "Metal",
+      "Plástico"
+    ]
+  },
+  {
+    "name": "Centro de Reciclagem Maianga #80",
+    "latitude": -8.8294,
+    "longitude": 13.2437,
+    "materials": [
+      "Plástico",
+      "Vidro"
     ]
   }
 ]

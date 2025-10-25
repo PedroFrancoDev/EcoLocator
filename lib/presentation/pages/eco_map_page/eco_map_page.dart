@@ -41,7 +41,7 @@ class _EcoMapPageState extends State<EcoMapPage> {
           if (provider.isLoading) {
             return Center(
               child: CircularProgressIndicator(
-                strokeWidth: 1,
+                strokeWidth: 2,
                 color: Color(0XFF2E7D32),
               ),
             );

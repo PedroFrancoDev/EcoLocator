@@ -1,13 +1,13 @@
-import 'package:eco_locator/core/theme/colors.dart';
-import 'package:eco_locator/core/utils/accepted_materials_enum.dart';
-import 'package:eco_locator/presentation/providers/eco_locator_provider.dart';
-import 'package:eco_locator/presentation/providers/theme_provider.dart';
-import 'package:eco_locator/presentation/widgets/eco_point_info.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter_map/flutter_map.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
-import 'package:latlong2/latlong.dart';
-import 'package:provider/provider.dart';
+import "package:eco_locator/core/theme/colors.dart";
+import "package:eco_locator/core/utils/accepted_materials_enum.dart";
+import "package:eco_locator/presentation/providers/eco_locator_provider.dart";
+import "package:eco_locator/presentation/providers/theme_provider.dart";
+import "package:eco_locator/presentation/widgets/eco_point_info.dart";
+import "package:flutter/material.dart";
+import "package:flutter_map/flutter_map.dart";
+import "package:font_awesome_flutter/font_awesome_flutter.dart";
+import "package:latlong2/latlong.dart";
+import "package:provider/provider.dart";
 
 class MapWidget extends StatelessWidget {
   final EcoLocatorProvider provider;
@@ -34,8 +34,8 @@ class MapWidget extends StatelessWidget {
       ),
       children: [
         TileLayer(
-          urlTemplate: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
-          userAgentPackageName: 'com.example.ecolocator',
+          urlTemplate: "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+          userAgentPackageName: "com.example.ecolocator",
         ),
         MarkerLayer(
           markers: [
@@ -59,7 +59,7 @@ class MapWidget extends StatelessWidget {
                   onTap: () {
                     showEcoPointInfo(
                       context,
-                      nomePonto: "Ponto Verde Central",
+                      nomePonto: "Ponto Verde Central #34",
                       tipoMaterial: "Plástico, Vidro, Papel",
                       distanciaKm: 1.8,
                       themeStatus: themeProvider.currentThemeStatus,
