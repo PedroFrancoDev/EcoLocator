@@ -35,9 +35,9 @@ class MapWidget extends StatelessWidget {
       children: [
         TileLayer(
           urlTemplate: Theme.of(context).brightness == Brightness.dark
-              ? "https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png"
-              : "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-          subdomains: const ['a', 'b', 'c'],
+              ? "https://basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png"
+              : "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+          userAgentPackageName: 'com.example.eco_locator',
         ),
         MarkerLayer(
           markers: [

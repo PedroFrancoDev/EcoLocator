@@ -1,7 +1,7 @@
 import 'package:eco_locator/app.dart';
 import 'package:eco_locator/data/datasources/i_recycling_point_datasource.dart';
 import 'package:eco_locator/data/datasources/local_recycling_point_data_source.dart';
-import 'package:eco_locator/data/repositories/recycling_point_repository.dart';
+import 'package:eco_locator/data/repositories/Impl_recycling_point_repository.dart';
 import 'package:eco_locator/domain/repositories/i_recycling_point_repository.dart';
 import 'package:eco_locator/presentation/providers/theme_provider.dart';
 import 'package:flutter/material.dart';
@@ -19,7 +19,7 @@ void main() async {
           create: (_) => LocalRecyclingPointDatasource(),
         ),
         Provider<IRecyclingPointRepository>(
-          create: (context) => RecyclingPoingRepository(
+          create: (context) => ImplRecyclingPoingRepository(
             context.read<IRecyclingPoingDatasource>(),
           ),
         ),
