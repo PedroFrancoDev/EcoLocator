@@ -12,38 +12,6 @@ class RecyclingPoingRepository implements IRecyclingPointRepository {
   RecyclingPoingRepository(this._datasource);
 
   @override
-  Future<double?> calculateDistance(LatLng point1, LatLng point2) async {
-    try {
-      final now = DateTime.now();
-      debugPrint("Calculating distance between $point1 and $point2");
-      debugPrint("Initial time is ${now}");
-
-      const double earthRadius = 6371000; // Metros
-
-      final lat1Rad = point1.latitude * (math.pi / 180);
-      final lat2Rad = point2.latitude * (math.pi / 180);
-      final deltaLatRad = (point2.latitude - point1.latitude) * (math.pi / 180);
-      final deltaLngRad =
-          (point2.longitude - point1.longitude) * (math.pi / 180);
-
-      final a = math.sin(deltaLatRad / 2) * math.sin(deltaLatRad / 2) +
-          math.cos(lat1Rad) *
-              math.cos(lat2Rad) *
-              math.sin(deltaLngRad / 2) *
-              math.sin(deltaLngRad / 2);
-
-      final c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a));
-
-      return earthRadius * c;
-    } catch (e) {
-      return null;
-    } finally {
-      final last = DateTime.now();
-      debugPrint("Final time is ${last.difference}");
-    }
-  }
-
-  @override
   Future<List<RecyclingPoint>> getRecyclingPoints() async {
     try {
       return _datasource.getRecyclingPoints();
@@ -51,4 +19,31 @@ class RecyclingPoingRepository implements IRecyclingPointRepository {
       return [];
     }
   }
+
+  Future<double?> getDistanceBetweenPoints(LatLng pointA, LatLng pointB) async {
+    const earthRadius = 6371000.0; // Raio da Terra em metros
+
+    try {
+      debugPrint("Calculando distância entre $pointA e $pointB...");
+
+      final lat1 = _toRadians(pointA.latitude);
+      final lat2 = _toRadians(pointB.latitude);
+      final deltaLat = _toRadians(pointB.latitude - pointA.latitude);
+      final deltaLng = _toRadians(pointB.longitude - pointA.longitude);
+
+      final a =
+          math.pow(math.sin(deltaLat / 2), 2) +
+          math.cos(lat1) * math.cos(lat2) * math.pow(math.sin(deltaLng / 2), 2);
+
+      final c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a));
+      final distance = earthRadius * c;
+
+      return distance;
+    } catch (e, stackTrace) {
+      debugPrint("Erro ao calcular distância: $e\n$stackTrace");
+      return null;
+    }
+  }
+
+  double _toRadians(double degrees) => degrees * math.pi / 180;
 }

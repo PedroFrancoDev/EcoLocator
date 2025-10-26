@@ -1,4 +1,5 @@
 import "package:eco_locator/core/enums/theme_status.dart";
+import "package:eco_locator/core/utils/formatters.dart";
 import "package:eco_locator/presentation/widgets/simple_text_button.dart";
 import "package:eco_locator/presentation/providers/eco_locator_provider.dart";
 import "package:flutter/material.dart";
@@ -27,7 +28,6 @@ void showEcoPointInfo(
             mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Indicador superior
               Center(
                 child: Container(
                   width: 50,
@@ -72,7 +72,6 @@ void showEcoPointInfo(
                 ),
               ),
               const SizedBox(height: 12),
-
               Center(
                 child: Wrap(
                   spacing: 12,
@@ -104,7 +103,7 @@ void showEcoPointInfo(
               ),
 
               const SizedBox(height: 20),
-              Divider(color: Colors.grey[400],),
+              Divider(color: Colors.grey[400]),
               const SizedBox(height: 12),
 
               FutureBuilder<double?>(
@@ -129,7 +128,7 @@ void showEcoPointInfo(
                     final metros = snapshot.data!;
                     return Center(
                       child: Text(
-                        '${metros.toStringAsFixed(0)} metros\naté o local',
+                        formatarDistancia(metros),
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontWeight: FontWeight.bold,

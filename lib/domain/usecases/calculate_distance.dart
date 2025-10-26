@@ -10,6 +10,6 @@ class CalculateDistanceUseCase {
     if (latLong1 == null || latLong2 == null) {
       return Future.value(null);
     }
-    return _repository.calculateDistance(latLong1, latLong2);
+    return _repository.getDistanceBetweenPoints(latLong1, latLong2);
   }
 }

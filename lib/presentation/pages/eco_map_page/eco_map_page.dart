@@ -38,6 +38,7 @@ class _EcoMapPageState extends State<EcoMapPage> {
     ThemeProvider themeProvider = context.watch<ThemeProvider>();
 
     return Scaffold(
+      backgroundColor: const Color.fromARGB(255, 255, 195, 190),
       body: Consumer<EcoLocatorProvider>(
         builder: (context, provider, child) {
           if (provider.isLoading) {
@@ -51,12 +52,19 @@ class _EcoMapPageState extends State<EcoMapPage> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    Image.asset(
+                      "assets/ilustration.png",
+                      width: 230,
+                    ),
                     Text(
                       provider.errorMessage!,
                       textAlign: TextAlign.center,
-                      style: const TextStyle(fontSize: 16, color: Colors.red),
+                      style: const TextStyle(
+                        fontSize: 16,
+                        color: Color.fromARGB(255, 215, 64, 53),
+                      ),
                     ),
-                    const SizedBox(height: 20),
+                    const SizedBox(height: 25),
                     SimpleTextButton(
                       label: "Tentar Novamente",
                       onPressed: () => provider.initializeApp(),
